@@ -1,0 +1,507 @@
+.image-text-button-container {
+  display: flex;
+  align-items: stretch;
+  /* Make sure both containers have equal height */
+  justify-content: space-between;
+}
+
+.left-side,
+.right-side {
+  flex: 1;
+}
+
+/* .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+       margin-left: 10%;
+    margin-right: 10%;
+  } */
+
+.text {
+  text-align: left;
+  /* Add additional text styles as necessary */
+}
+
+.text-button-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.text-button-containerreport {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin-left: 21%;
+  margin-right: 21%;
+}
+
+.button1 {
+  /* width: 13rem; */
+  text-align: center !important;
+}
+
+.button-container {
+  display: inline-block !important;
+}
+
+.title {
+  text-align: left;
+}
+
+.reverse-order {
+  flex-direction: row-reverse;
+}
+
+.with-background {
+  background-color: #f5d9d5;
+}
+
+/* @media (max-width: 768px){
+    .img-fluid {
+        max-width: 100%;
+        min-height: 30vh;
+    }
+} */
+
+
+
+@media (min-width: 200px) {
+  .button1 {
+    /* width: 13rem; */
+    --bs-btn-font-size: 10px !important;
+  }
+
+  .text {
+    font-size: 6px;
+  }
+
+  .BarWidth {
+    width: 17rem;
+  }
+
+  .cardefined {
+    width: 15rem !important;
+    height: 10rem !important;
+  }
+
+  .listFont {
+    font-size: 1rem;
+  }
+
+  .headingDiscription {
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+  }
+
+  .heading {
+    font-size: 15px !important;
+  }
+
+  .Combinationheading {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .Combinationdescription {
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+
+  .loader {
+    --bs-spinner-width: 10vw !important;
+    --bs-spinner-height: 10vw !important;
+  }
+  .img-fluid {
+    min-height: 30vh;
+  }
+  .tybreakertitle {
+    font-size: 10px;
+  }
+  .combinationpatchSize {
+    height: 40%;
+  }
+  .modalsize{
+    --bs-modal-width:40vw !important;
+    --bs-modal-height: 30vh !important;
+    padding: 0px !important;
+  }
+  .modalheading{
+     font-size: 22px !important
+  }
+  .modaldiscription{
+    font-size: 15px !important;
+    line-height: 1.3 !important;  
+}
+
+}
+
+
+
+@media (min-width: 350px) {
+  /* Medium screens and larger */
+  .button1 {
+    /* width: 13rem; */
+    --bs-btn-font-size: 8px !important;
+  }
+
+  .listFont {
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 12px;
+  }
+
+  .text {
+    font-size: 8px;
+  }
+
+  /* .BarWidth{
+        width: 18rem ;
+    } */
+  .cardefined {
+    width: 15rem !important;
+    height: 10rem !important;
+  }
+  .tybreakertitle {
+    font-size: 14px;
+  }
+  .tybreakeroption {
+    font-size: 15px;
+  }
+  .combinationpatchSize {
+    height: 40%;
+  }
+  .headingDiscription {
+    font-size: 13px !important;
+    line-height: 1.2 !important;
+  }
+
+  .heading {
+    font-size: 17px !important;
+  }
+  
+  .modalsize{
+    --bs-modal-width:40vw !important;
+    --bs-modal-height: 30vh !important;
+    padding: 0px !important;
+  }
+  .modalheading{
+     font-size: 21px !important
+  }
+  .modaldiscription{
+    font-size: 15px !important;
+    line-height: 1.3 !important;  
+}
+
+}
+
+@media (min-width: 400px) {
+    .cardefined {
+      width: 25rem !important;
+      height: 16rem !important;
+    }
+    .loader {
+      --bs-spinner-width: 10vw !important;
+      --bs-spinner-height: 10vw !important;
+    }
+    .tybreakeroption {
+      font-size: 10px;
+    }
+    .combinationpatchSize {
+      height: 37%;
+    }
+    .headingDiscription {
+        font-size: 15px !important;
+        line-height: 1.2 !important;
+      }
+    
+      .heading {
+        font-size: 22px !important;
+      }
+      .modalsize{
+        --bs-modal-width:40vw !important;
+        --bs-modal-height: 20vh !important;
+        padding: 0px !important;
+      }
+      .modalheading{
+         font-size: 25px !important
+      }
+      .modaldiscription{
+        font-size: 20px !important;
+        line-height: 1.3 !important;  
+    }
+    .tybreakertitle {
+      font-size: 16px;
+    }
+    .text {
+      font-size: 10px;
+    }
+    .title {
+      font-size: 14px;
+    }
+  }
+
+@media (min-width: 576px) {
+    .button1 {
+      /* width: 13rem; */
+      --bs-btn-font-size: 10px !important;
+    }
+  
+    .cardefined {
+      width: 25rem !important;
+      height: 16rem !important;
+    }
+  
+    .title {
+      font-size: 19px;
+    }
+  
+    .text {
+      font-size: 14px;
+    }
+    .tybreakeroption {
+      font-size: 20px;
+    }
+    .tybreakertitle {
+      font-size: 18px;
+    }
+  
+    .heading {
+      font-size: 32px !important;
+    }
+  
+    .headingDiscription {
+      font-size: 23px !important;
+      line-height: 1.3 !important;
+    }
+    .modalsize{
+      --bs-modal-width:40vw !important;
+      --bs-modal-height: 20vh !important;
+      padding: 0px !important;
+    }
+    .modalheading{
+       font-size: 25px !important
+    }
+    .modaldiscription{
+      font-size: 20px !important;
+      line-height: 1.3 !important;  
+  }
+  }
+
+@media (min-width: 768px) {
+  /* Large screens and larger */
+  .button1 {
+    /* width: 13rem; */
+    --bs-btn-font-size: 16px !important;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .cardefined {
+    width: 25rem !important;
+    height: 16rem !important;
+  }
+
+  .headingDiscription {
+    font-size: 3vw !important;
+    line-height: 1.2 !important;
+  }
+
+  .heading {
+    font-size: 4vw !important;
+  }
+  .tybreakertitle {
+    font-size: 20px;
+  }
+  .modalsize{
+    --bs-modal-width:426px !important;
+    --bs-modal-height: 20vh !important;
+    padding: 0px !important;
+  }
+  .modalheading{
+     font-size: 25px !important
+  }
+  .modaldiscription{
+    font-size: 20px !important;
+    line-height: 1.3 !important;  
+}
+}
+
+@media (min-width: 950px) {
+  /* Medium screens and larger */
+  .button1 {
+    /* width: 13rem; */
+    --bs-btn-font-size: 18px !important;
+  }
+
+  .cardtitle {
+    font-size: 33px;
+  }
+
+  .text {
+    font-size: 24px;
+  }
+  .title {
+    font-size: 48px;
+  }
+
+  .BarWidth {
+    width: 30rem;
+  }
+
+  .cardefined {
+    width: 25rem !important;
+    height: 16rem !important;
+  }
+  .Combinationheading {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+  .Combinationdescription {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  .listFont {
+    font-size: 1.7rem;
+  }
+
+  .loader {
+    --bs-spinner-width: 4vw !important;
+    --bs-spinner-height: 4vw !important;
+  }
+  .img-fluid {
+    height: auto;
+  }
+  .tybreakertitle {
+    font-size: 24px;
+  }
+  .tybreakeroption {
+    font-size: 20px;
+  }
+  .combinationpatchSize {
+    height: 37%;
+  }
+  .heading {
+    font-size: 33px !important;
+  }
+  .headingDiscription {
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+  }
+  .modalsize{
+    --bs-modal-width:436px !important;
+    --bs-modal-height: 20vh !important;
+    padding: 0px !important;
+  }
+  .modalheading{
+     font-size: 25px !important
+  }
+  .modaldiscription{
+    font-size: 17px !important;
+    line-height: 1.3 !important;  
+}
+}
+
+@media (min-width: 1000) {
+  /* Medium screens and larger */
+  .button1 {
+    /* width: 13rem; */
+    --bs-btn-font-size: 18px !important;
+  }
+
+  .cardtitle {
+    font-size: 33px;
+  }
+
+  .text {
+    font-size: 30px;
+  }
+  .title {
+    font-size: 48px;
+  }
+
+  .BarWidth {
+    width: 30rem;
+  }
+
+  .cardefined {
+    width: 25rem !important;
+    height: 16rem !important;
+  }
+  .Combinationheading {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+  .Combinationdescription {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  .listFont {
+    font-size: 1.7rem;
+  }
+
+  .loader {
+    --bs-spinner-width: 4vw !important;
+    --bs-spinner-height: 4vw !important;
+  }
+  .img-fluid {
+    height: auto;
+  }
+  .tybreakertitle {
+    font-size: 24px;
+  }
+  .tybreakeroption {
+    font-size: 20px;
+  }
+  .combinationpatchSize {
+    height: 37%;
+  }
+  .heading {
+    font-size: 33px !important;
+  }
+  .headingDiscription {
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+  }
+  .modalsize{
+    --bs-modal-width:436px !important;
+    --bs-modal-height: 20vh !important;
+    padding: 0px !important;
+  }
+  .modalheading{
+     font-size: 25px !important
+  }
+  .modaldiscription{
+    font-size: 17px !important;
+    line-height: 1.3 !important;  
+}
+}
+.isSelected {
+  background-color: #b28d94;
+  color: #fffaf6;
+  font-weight: bold;
+}
+
+.divButton:hover {
+  cursor: pointer;
+}
+
+.notSelected {
+  color: #b28d94;
+  background-color: #fffaf6;
+  font-weight: bold;
+}

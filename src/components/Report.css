@@ -1,0 +1,120 @@
+
+
+@media screen and (min-width: 200px) {
+  .button2 {
+    width: 100px;
+    font-size: 10px;
+  }
+
+
+  .reporttext {
+    font-size: 6px;
+  }
+  .thanksImage{
+    height: 26vh;
+
+  }
+}
+
+@media screen and (min-width: 350px) {
+  /* Medium screens and larger */
+  .button2 {
+    width: 140px;
+    font-size: 11px;
+    color: pink;
+  }
+
+  
+  .reporttext {
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .button2 {
+    width: 11rem;
+    font-size: 10px;
+    color: red;
+  }
+
+
+  
+}
+@media screen and (min-width: 576px) {
+  .button2 {
+    width: 13rem;
+    font-size: 12px;
+    color: red;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+  /* Large screens and larger */
+  .button2 {
+    width: 24rem;
+    font-size: 16px;
+    color: blue;
+  }
+  
+  .reporttext {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  /* Medium screens and larger */
+  .button2 {
+    width: 350px;
+    font-size: 18px;
+    color: red;
+  }
+    /* css for image show on thankspage for report generation div */
+  .thanksImage{
+    height: 65vh;
+
+  }
+
+  
+  .reporttext {
+    font-size: 19px;
+  }
+}
+
+.trBackgroundcolor {
+  background-color: #fffaf6;
+  font-weight: bold;
+  color: black;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.thBackgroundcolor {
+  background-color: #b28d94;
+  color: #fffaf6;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.tableFooter {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center !important ;
+}
+
+.paginationButton {
+  background-color: #fffaf6 !important;
+  border: 0px;
+}
+
+.table {
+  --bs-table-bg: #fffaf6 !important;
+  margin-bottom: 0px;
+  /* margin-left: 1%;
+    margin-right: 1%; */
+  width: 100%;
+  border: 2px solid #b28d94;
+}
+
+.textAlignment {
+  text-align: center;
+}

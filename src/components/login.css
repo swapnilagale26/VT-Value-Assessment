@@ -1,0 +1,241 @@
+.form {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #dfd9df, #c409e9);
+}
+
+.login-title {
+    font-size: x-large;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(98, 8, 121);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #da12c9;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.forgot-password {
+    margin-top: 20px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: #1187a1;
+}
+
+.google-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 250px;
+
+}
+
+.google-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.google-logo {
+    display: inline-block;
+    width: 45px;
+    height: 35px;
+    background-size: contain;
+        /* background-image: url('../assets/google-logo.png'); */
+    background-position: center;
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .form {
+        top: 50%;
+      width: 90%;
+      padding: 30px;
+      font-size: 15px;
+      border-radius: 20px;
+    }
+  
+    .login-title {
+      font-size: 22px;
+    }
+  
+    .form-group {
+      margin-bottom: 10px;
+    }
+  
+    .form-control {
+      padding: 5px;
+      font-size: 16px;
+    }
+  
+    .submit-button {
+      padding: 8px 16px;
+      font-size: 18px;
+    }
+  
+    .forgot-password {
+      font-size: 16px;
+    }
+  
+    .google-button {
+      width: 100%;
+      height: 30px;
+      font-size: 18px;
+    }
+  
+    .google-logo {
+      width: 35px;
+      height: 25px;
+    }
+  }
+
+  .custom-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* max-width: 200px; Adjust the max-width as needed */
+  }
+  
+  /* .scrollable-content::-webkit-scrollbar {
+    display: none;
+  }
+   */
+@media screen and  (min-width: 576px) {
+  .textsize{
+    font-size: 14px !important;
+  }
+}
+
+
+@media  screen and (min-width: 200px) {
+
+  .containnerClass{
+    width: 50%;
+    margin-top: 10% !important;
+    margin-bottom:10% !important;
+
+  }
+  .textsize{
+    font-size: 13px !important;
+  }
+
+
+}
+
+@media  screen and (min-width: 350px) {
+
+  /* Medium screens and larger */
+  .containnerClass{
+    width: 90%  !important;
+    margin-top: 20% !important;
+    margin-bottom:20% !important;
+
+  }
+  .textsize{
+    font-size: 12px !important;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  /* Large screens and larger */
+  .containnerClass{
+    width: 50% !important;
+  }
+  .textsize{
+    font-size: 14px !important;
+  }
+  
+}
+
+@media screen and (min-width: 950px) {
+
+  /* Medium screens and larger */
+  .containnerClass{
+    width :  40%  !important; 
+    margin-top: 6rem !important;
+    margin-bottom: 6rem !important;
+
+      
+  }
+  .textsize{
+    font-size: 16px !important;
+  }
+
+  .innercardSize{
+    width:24rem;
+    height: 16rem;
+
+  }
+
+  .cardBodyHead{
+    font: size 1.7rem; ;
+
+
+  }
+  .cardBodyDiscrption{
+    font: size 1.2em;;
+
+  }
+}
+
+
+
+
+.widercardcss{
+  padding-top: 4%;
+
+}
+.outercardcss{
+  padding-top: 2%;
+
+}
+.innercardcss{
+  padding-top: 3%;
+}

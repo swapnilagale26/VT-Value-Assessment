@@ -1,0 +1,216 @@
+.card-warpper {
+    width: 10rem;
+    cursor: pointer;
+  transition: transform 0.3s;
+
+}
+
+
+.selectCard {
+    background-color: #433B39 !important;
+    color: #FFFAF6 !important;
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+  transition: transform 0.3s; /* Add a smooth transition */
+}
+
+.card-warpper:hover{
+  transform: scale(1.05); /* Adjust the scale factor as needed */
+  transition: transform 0.3s;
+}
+
+.bg-light{
+  background: white !important;
+  --bs-bg-opacity: 0 !important;
+}
+
+.bottom-navigation{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1;
+}
+
+.bottom-navigation div {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: auto;
+  }
+
+  /* Default style for the centered content */
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Add other styles as needed */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .centered-content {
+      /* Adjust styles for smaller screens, for example: */
+    //   font-size: 16px;
+    }
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 1200px) {
+    .centered-content {
+      /* Adjust styles for larger screens, for example: */
+    //   font-size: 24px;
+    }
+  }
+
+  .App{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .span_css{
+    font-weight: 800 !important;
+    color:#B28D94;
+  }
+
+  .spandetail_css{
+    font-weight: 600 !important;
+    color:#B28D94;
+  }
+
+  .top_instructions{
+    text-align: center;
+  }
+
+  // .scroller{
+  //   max-height: calc(100vh - 180px);
+  // }
+
+  .btn-primary{
+    border: 1px solid #b28d94 !important;
+    background: rgb(178, 141, 148) !important;
+    color: #fffaf6 !important;
+    border-radius: 3px !important;
+  }
+
+  .btn-primary:hover{
+    border: 1px solid #F5D9D5 !important;
+    background: #F5D9D5 !important;
+    color: black !important;
+  }
+
+  .btn-secondary{
+    border: 1px solid #333333 !important;
+    background: #333333 !important;
+    color: #ffffff !important;
+    border-radius: 3px !important;
+    font-size: 15px;
+  }
+
+  .btn-secondary:hover{
+    border: 1px solid #F5D9D5 !important;
+    background: #F5D9D5 !important;
+    color: black !important;
+  }
+
+  .navlinks{
+    margin-right: 15px;
+    color: #333333 !important;
+  }
+
+  .navlinks:hover{
+    color: #b28d94 !important;
+  }
+
+
+  .responsive-banner {
+    background: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .responsive-banner {
+      font-size: 16px;
+    }
+  }
+
+
+.infographic-card {
+  position: relative;
+  padding: 20px;
+    height: 250px !important; /* Set a maximum height */
+//   overflow: hidden;
+  background-color: #f0f0f0;
+}   
+
+.icon-container {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 10px;
+  z-index: 1;
+}
+
+.icon-container svg {
+  color: #433B39;
+}
+
+.card-title {
+  margin-top: 30px; /* Adjust the margin as needed */
+  max-height: 30px; /* Set a maximum height for the title */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Adjust the margin as needed */
+  white-space: nowrap;
+}
+
+.card-description {
+  margin-top: 10px; /* Adjust the margin as needed */
+  max-height: 60px; /* Set a maximum height for the description */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  width: 100%;
+}
+
+.banner-content{
+    z-index: 2;
+}
+
+.small-progress-bar {
+    width: 200px; /* Adjust the width to your preference */
+    left: 44%;
+    position: absolute;
+    margin-top: 10px;
+  }
+  
+  .progressBar1 {/* Adjust the height to make it small */
+    width: 200px; /* Adjust the width to your preference */
+    height: 6px;
+  }
+
+  .progress-bar{
+    background-color: #B28D94 !important;
+    
+  }
+
+  .btn-next{
+    margin-top: 3rem;
+  }
+
+  .or-heading{
+    position: absolute;
+    left: 48.5%;
+    top: 32%;
+  }

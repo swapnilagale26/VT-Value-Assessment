@@ -1,0 +1,154 @@
+.image-banner {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+
+ 
+
+  @media (min-width: 200px) {
+    /* Medium screens and larger */
+    h1 {
+      font-size: 10px;
+    }
+    .Bannertitle{
+      font-size: 10px;
+    }
+  
+  
+    p {
+      margin-top: 3px;
+      font-size: 6px;
+    }
+    .BannerDiv{
+      width:70%;
+    }
+  }
+
+  @media (min-width: 350px) {
+    /* Medium screens and larger */
+    h1 {
+      font-size: 16px;
+    }
+    .Bannertitle{
+      font-size: 18px;
+    }
+  
+  
+    p {
+      margin-top: 10px;
+      font-size: 10px;
+    }
+
+    .BannerDiv{
+      width:65%;
+    }
+  }
+  @media (min-width: 400px) {
+    .Bannertitle{
+      font-size: 21px;
+    }
+  
+  }
+
+
+
+  @media (min-width: 576px) {
+    /* Medium screens and larger */
+    h1 {
+      font-size: 24px;
+    }
+  
+    .Bannertitle{
+      font-size: 28px;
+    }
+  
+    p {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* Large screens and larger */
+    h1 {
+      font-size: 36px;
+    }
+    .Bannertitle{
+      font-size: 45px;
+    }
+  
+  
+    p {
+      font-size: 20px;
+      font-size: 16px;
+    }
+    .BannerDiv{
+      width:76%;
+    }
+  }
+  
+  @media (min-width: 950px) {
+    /* Medium screens and larger */
+    h1 {
+      font-size: 48px;
+    }
+    .Bannertitle{
+      font-size: 60px;
+    }
+  
+    p {
+      margin-top: 16px;
+      font-size: 24px;
+    }
+    .BannerDiv{
+      width:53%;
+    }
+  }
+
+
+
+  
+  .banner-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .image-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    //background: rgba(0, 0, 0, 0.25); /* Transparent black color (adjust the alpha value for the desired transparency) */
+    z-index: 1; /* Place it on top of the image */
+}
+
