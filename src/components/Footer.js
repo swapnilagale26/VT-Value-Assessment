@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer style={footerStyle}>
       <div style={contentStyle}>
-        <p style={textStyle}>Copyright &copy; {currentYear} • Rise & Thrive Global • Privacy Policy • Terms of Service</p>
+        <p style={textStyle}>Copyright &copy; {currentYear} • Ventura eLearning Global • Privacy Policy • Terms of Service</p>
       </div>
     </footer>
   );

@@ -10,6 +10,7 @@ import { getUserReport } from "../../service/authenticator";
 import { serverUrl } from "../../Constant/ReportValue";
 import { signInProvider } from "../../contex/ArctypeProvider";
 import { useCol } from "react-bootstrap/esm/Col";
+import image6 from "../img/Ventura-Logo.png";
 
 const MyNavbar = () => {
   const [token, setToken] = useState(localStorage.getItem("token"));
@@ -99,7 +100,7 @@ const MyNavbar = () => {
     //   <div className="container">
     //     <a className="navbar-brand" href="/">
     //       <img
-    //         src="https://www.riseandthrive.com.au/wp-content/uploads/2019/12/cropped-Rise_n_Thrive-1.png"
+    //         src="https://www.venturatechnologies.in/public/assets/img/HomePage_4-30.png"
     //         alt="Logo"
     //         width="140"
     //         height="60"
@@ -136,7 +137,7 @@ const MyNavbar = () => {
       <Container>
         <Navbar.Brand onClick={handleHomeClick}>
           <img
-            src="https://www.riseandthrive.com.au/wp-content/uploads/2019/12/cropped-Rise_n_Thrive-1.png" // Replace with the path to your logo
+            src={image6} // Replace with the path to your logo
             alt="Logo"
             width="112"
             height="50"
